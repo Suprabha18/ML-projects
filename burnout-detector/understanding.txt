@@ -1,0 +1,107 @@
+Mental Burnout Detector (ML Project)
+📌 Overview
+
+The Mental Burnout Detector is a Machine Learning-based web application that predicts a user’s burnout level based on daily lifestyle factors such as working hours, sleep duration, stress level, and breaks.
+
+This project demonstrates how Machine Learning can be applied to real-world mental health monitoring, enabling early detection and preventive action.
+
+🚀 Why This Project Matters (ML Perspective)
+
+Mental health issues like burnout are complex and non-linear — they cannot be accurately assessed using simple rules.
+
+This is where Machine Learning becomes powerful:
+
+🤖 Pattern Recognition
+ML models learn hidden relationships between inputs like stress, sleep, and work hours that are difficult to model manually.
+
+📊 Data-Driven Decisions
+Instead of guessing burnout levels, predictions are based on trained data, making them more reliable.
+
+🔍 Multi-Factor Analysis
+Burnout depends on multiple factors simultaneously. ML handles this complexity effectively.
+
+⚡ Real-Time Prediction
+Once trained, the model can instantly predict burnout levels for new users.
+
+📈 Scalability
+The system can be improved over time with more data, making predictions smarter and more accurate.
+
+🧠 Machine Learning Model Used
+
+Algorithm: Random Forest Classifier
+
+Why Random Forest?
+
+Handles multiple features efficiently
+
+Reduces overfitting
+
+Works well for classification problems
+
+Provides stable and accurate predictions
+
+🛠️ Technologies Used
+
+Python – Core programming language
+
+Pandas – Data handling and preprocessing
+
+Scikit-learn – ML model training and prediction
+
+Streamlit – Web app interface
+
+Pickle – Model saving and loading
+
+⚙️ How It Works
+
+User inputs:
+
+Work hours
+
+Sleep hours
+
+Stress level (slider input)
+
+Breaks per day
+
+Input data is converted into a structured format (DataFrame)
+
+The trained ML model processes the input
+
+The model predicts burnout level:
+
+Low
+
+Medium
+
+High
+
+The app also provides:
+
+Visual stress indication
+
+Reasons for burnout
+
+Basic suggestions for improvement
+
+🌍 Real-World Importance
+
+This project shows how ML can be used in:
+
+🏫 Student Life – Managing academic stress
+
+💼 Work Environments – Monitoring employee burnout
+
+🧘 Personal Well-being – Encouraging healthy habits
+
+It acts as a preventive tool, helping users take action before burnout becomes severe.
+
+🔮 Future Improvements
+
+Add real-time data tracking (wearables, screen time, etc.)
+
+Use deep learning for more accurate predictions
+
+Personalized recommendations using AI
+
+Deploy as a mobile application
